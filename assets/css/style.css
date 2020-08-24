@@ -1196,6 +1196,11 @@ section {
 .why-us .container .icon-box-more{
   margin-left: 370px;
 }
+/* 首页 作品推荐 显示作者 */
+.why-us .container .author{
+  float: right;
+  margin-left: 200px;
+}
 /* 音频推荐 */
 .why-us .audio-recommend-box{
   float: left;
