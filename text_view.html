@@ -1,0 +1,573 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <!-- Bootstrap Styles-->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FontAwesome Styles-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!-- Morris Chart Styles-->
+
+    <!-- Custom Styles-->
+    <link href="assets/css/custom-styles.css" rel="stylesheet" />
+    <!-- Google Fonts-->
+    <link href='http://fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+    <!-- TABLE STYLES-->
+    <link href="assets/js/dataTables/dataTables.bootstrap.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap/js/bootstrap.js" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="assets/js/pagination.js"></script>
+    <script type="text/javascript">
+        
+        
+
+//        function jump(var) {
+//            var t = document.getElementById(var);
+//            var num = t.value;
+//            jump_to(num);
+//        };
+//        function more(var) {
+//            pageCount = 10;
+//            firstPage();
+//        };
+    </script>
+
+    
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- ======= Header ======= -->
+        <header id="new_header" class="fixed-top header-transparent">
+            <div class="container">
+
+                <div class="logo float-left">
+                    <h2 class="text-light"><a href="index.html"><span>基于区块链技术数字版权存证管理系统</span></a></h2>
+                    <!-- Uncomment below if you prefer to use an image logo -->
+                    <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+                </div>
+
+                <nav class="nav-menu float-right d-none d-lg-block">
+                    <ul>
+                        <li class="active"><a href="index.html">首页</a></li>
+                        <li class="drop-down"><a href="#">区块链版权存证</a>
+                            <ul>
+                                <li><a href="store_img.html">图片存证</a></li>
+                                <li><a href="store_text.html">文本存证</a></li>
+                                <li><a href="store_vidio.html">视频存证</a></li>
+                                <li><a href="store_audio.html">音频存证</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="store_trade.html">作品交易登记</a></li>
+                        <li class="drop-down"><a href="#">个人信息</a>
+                            <ul>
+                                <li><a href="personal_info.html">我的主页</a></li>
+                                <li><a href="store_record.html">存证记录</a></li>
+                                <li><a href="trade_record.html">交易记录</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">举报</a></li>
+                    </ul>
+                </nav><!-- .nav-menu -->
+            </div>
+        </header><!-- End Header -->
+        <div id="page-wrapper1">
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-header">
+                            中国传媒大学 <small>基于区块链的数字版权保护系统</small>
+                            <br> <br><small>文本资源</small>
+                        </h1>
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Advanced Tables -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                论文
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <style type="text/css">
+                                        table tr:hover {
+                                            background: #eeeeee;
+                                        }
+
+                                        .span6 {
+                                            /*width:500px;*/
+                                            float: inherit;
+                                            margin: 10px;
+                                        }
+
+                                        #pagiDiv1 span {
+                                            background: #ffffff;
+                                            border-radius: .2em;
+                                            padding: 5px;
+                                        }
+                                    </style>
+
+                                    <table class="table table-striped table-bordered table-hover"
+                                        id="table1">
+                                        <tbody>
+                                            <tr class="odd gradeX">
+                                                <td><div title="《计算机组成》，作者：，本书作为中国传媒大学计算机组成专业课的选定教科书"><a href="pdfjs-2.4.456-dist/web/viewer.html?file=1.pdf" target="_blank">计算机组成</a></div></td>
+                                                <td><a href="viewpdf.html" target="_blank">计算机网络</a></td>
+                                                <td><a href="viewpdf.html" target="_blank">机器学习</a></td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="odd gradeA">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="odd gradeA">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div id="pagiDiv1" align="right" style="width:1200px">
+                                        <span id="spanFirst1">首页</span>
+                                        <span id="spanPre1">上一页</span>
+                                        <span id="spanNext1">下一页</span>
+                                        <span id="spanLast1">尾页</span>
+                                        第 <span id="spanPageNum"><input type="text" id="spanPageNum1"
+                                                style="width:40px;" value=""></span> 页/总 <span
+                                            id="spanTotalPage1"></span> 页
+                                        <input type="button" value="跳转" onclick="">
+                                    </div>
+                                    <input type="button" value="更多" onclick="" style="float:right">
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Advanced Tables -->
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Advanced Tables -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                小说
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <style type="text/css">
+                                        table tr:hover {
+                                            background: #eeeeee;
+                                        }
+
+                                        .span6 {
+                                            /*width:500px;*/
+                                            float: inherit;
+                                            margin: 10px;
+                                        }
+
+                                        #pagiDiv2 span {
+                                            background: #ffffff;
+                                            border-radius: .2em;
+                                            padding: 5px;
+                                        }
+                                    </style>
+
+                                    <table class="table table-striped table-bordered table-hover"
+                                        id="table2">
+
+                                        <tbody>
+                                            <tr class="odd gradeX">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="odd gradeA">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="odd gradeA">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div id="pagiDiv2" align="right" style="width:1200px">
+                                        <span id="spanFirst2">首页</span>
+                                        <span id="spanPre2">上一页</span>
+                                        <span id="spanNext2">下一页</span>
+                                        <span id="spanLast2">尾页</span>
+                                        第 <span id="spanPageNum"><input type="text" id="spanPageNum2"
+                                                style="width:40px;" value=""></span> 页/总 <span
+                                            id="spanTotalPage2"></span> 页
+                                        <input type="button" value="跳转" onclick="">
+                                    </div>
+                                    <input type="button" value="更多" onclick="" style="float:right">
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Advanced Tables -->
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Advanced Tables -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                诗歌
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <style type="text/css">
+                                        table tr:hover {
+                                            background: #eeeeee;
+                                        }
+
+                                        .span6 {
+                                            /*width:500px;*/
+                                            float: inherit;
+                                            margin: 10px;
+                                        }
+
+                                        #pagiDiv3 span {
+                                            background: #ffffff;
+                                            border-radius: .2em;
+                                            padding: 5px;
+                                        }
+                                    </style>
+                                    <table class="table table-striped table-bordered table-hover"
+                                        id="table3">
+                                        <tbody>
+                                            <tr class="odd gradeX">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="odd gradeA">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="odd gradeA">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div id="pagiDiv3" align="right" style="width:1200px">
+                                        <span id="spanFirst3">首页</span>
+                                        <span id="spanPre3">上一页</span>
+                                        <span id="spanNext3">下一页</span>
+                                        <span id="spanLast3">尾页</span>
+                                        第 <span id="spanPageNum"><input type="text" id="spanPageNum3"
+                                                style="width:40px;" value=""></span> 页/总 <span
+                                            id="spanTotalPage3"></span> 页
+                                        <input type="button" value="跳转" onclick="">
+                                    </div>
+                                    <input type="button" value="更多" onclick="" style="float:right">
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Advanced Tables -->
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Advanced Tables -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                散文
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <style type="text/css">
+                                        table tr:hover {
+                                            background: #eeeeee;
+                                        }
+
+                                        .span6 {
+                                            /*width:500px;*/
+                                            float: inherit;
+                                            margin: 10px;
+                                        }
+
+                                        #pagiDiv4 span {
+                                            background: #ffffff;
+                                            border-radius: .2em;
+                                            padding: 5px;
+                                        }
+                                    </style>
+                                    <table class="table table-striped table-bordered table-hover" id="table4">
+                                        <tbody>
+                                            <tr class="odd gradeX">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="odd gradeA">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="odd gradeA">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div id="pagiDiv4" align="right" style="width:1200px">
+                                        <span id="spanFirst4">首页</span>
+                                        <span id="spanPre4">上一页</span>
+                                        <span id="spanNext4">下一页</span>
+                                        <span id="spanLast4">尾页</span>
+                                        第 <span id="spanPageNum"><input type="text" id="spanPageNum4"
+                                                style="width:40px;" value=""></span> 页/总 <span
+                                            id="spanTotalPage4"></span> 页
+                                        <input type="button" value="跳转" onclick="">
+                                    </div>
+                                    <input type="button" value="更多" onclick="" style="float:right">
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Advanced Tables -->
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Advanced Tables -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                剧本
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <style type="text/css">
+                                        table tr:hover {
+                                            background: #eeeeee;
+                                        }
+
+                                        .span6 {
+                                            /*width:500px;*/
+                                            float: inherit;
+                                            margin: 10px;
+                                        }
+
+                                        #pagiDiv5 span {
+                                            background: #ffffff;
+                                            border-radius: .2em;
+                                            padding: 5px;
+                                        }
+                                    </style>
+                                    <table class="table table-striped table-bordered table-hover" id="table5">
+                                        <tbody>
+                                            <tr class="odd gradeX">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="odd gradeA">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="odd gradeA">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div id="pagiDiv5" align="right" style="width:1200px">
+                                        <span id="spanFirst5">首页</span>
+                                        <span id="spanPre5">上一页</span>
+                                        <span id="spanNext5">下一页</span>
+                                        <span id="spanLast5">尾页</span>
+                                        第 <span id="spanPageNum"><input type="text" id="spanPageNum5"
+                                                style="width:40px;" value=""></span> 页/总 <span
+                                            id="spanTotalPage5"></span> 页
+                                        <input type="button" value="跳转" onclick="">
+                                    </div>
+                                    <input type="button" value="更多" onclick="" style="float:right">
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Advanced Tables -->
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- Advanced Tables -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                其他
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <style type="text/css">
+                                        table tr:hover {
+                                            background: #eeeeee;
+                                        }
+
+                                        .span6 {
+                                            /*width:500px;*/
+                                            float: inherit;
+                                            margin: 10px;
+                                        }
+
+                                        #pagiDiv6 span {
+                                            background: #ffffff;
+                                            border-radius: .2em;
+                                            padding: 5px;
+                                        }
+                                    </style>
+                                    <table class="table table-striped table-bordered table-hover" id="table6">
+                                        <tbody>
+                                            <tr class="odd gradeX">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="odd gradeA">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="even gradeC">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                            <tr class="odd gradeA">
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                                <td>&nbsp</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div id="pagiDiv6" align="right" style="width:1200px">
+                                        <span id="spanFirst6">首页</span>
+                                        <span id="spanPre6">上一页</span>
+                                        <span id="spanNext6">下一页</span>
+                                        <span id="spanLast6">尾页</span>
+                                        第 <span id="spanPageNum"><input type="text" id="spanPageNum6"
+                                                style="width:40px;" value=""></span> 页/总 <span
+                                            id="spanTotalPage6"></span> 页
+                                        <input type="button" value="跳转" onclick="">
+                                    </div>
+                                    <input type="button" value="更多" onclick="" style="float:right">
+                                </div>
+                            </div>
+                        </div>
+                        <!--End Advanced Tables -->
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+            </div>
+        </div>
+        <!-- /. PAGE INNER  -->
+    </div>
+    <!-- /. PAGE WRAPPER  -->
+    <!-- /. WRAPPER  -->
+    <!-- JS Scripts-->
+    <!-- jQuery Js -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Metis Menu Js -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+    <!-- DATA TABLE SCRIPTS -->
+    <script src="assets/js/dataTables/jquery.dataTables.js"></script>
+    <script src="assets/js/dataTables/dataTables.bootstrap.js"></script>
+
+    <script type="text/javascript">
+        new pagin("table1","spanPre1","spanFirst1","spanNext1","spanLast1","spanTotalPage1","spanPageNum1");
+        new pagin("table2","spanPre2","spanFirst2","spanNext2","spanLast2","spanTotalPage2","spanPageNum2");
+        new pagin("table3","spanPre3","spanFirst3","spanNext3","spanLast3","spanTotalPage3","spanPageNum3");
+        new pagin("table4","spanPre4","spanFirst4","spanNext4","spanLast4","spanTotalPage4","spanPageNum4");
+        new pagin("table5","spanPre5","spanFirst5","spanNext5","spanLast5","spanTotalPage5","spanPageNum5");
+        new pagin("table6","spanPre6","spanFirst6","spanNext6","spanLast6","spanTotalPage6","spanPageNum6");
+    
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="21px" viewBox="0 0 18 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_zhgl_n</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="侧边栏_侵权存证" transform="translate(-42.000000, -612.000000)" stroke="#747474" stroke-width="1.6">
+            <g id="树5">
+                <g transform="translate(0.000000, 592.000000)">
+                    <g id="icon" transform="translate(40.000000, 19.000000)">
+                        <g id="icon_zhgl_n" transform="translate(3.000000, 2.000000)">
+                            <path d="M7.86299973,9.72599945 C8.87749853,9.72599945 9.81944059,9.41534712 10.5988895,8.88397888 C11.8829355,8.00861517 12.7259995,6.53426151 12.7259995,4.86299973 C12.7259995,2.17723914 10.5487603,0 7.86299973,0 C5.17723914,0 3,2.17723914 3,4.86299973 C3,6.42235672 3.73394353,7.81029201 4.87522948,8.70020452 C5.69963891,9.343034 6.73659613,9.72599945 7.86299973,9.72599945 Z" id="Oval"></path>
+                            <path d="M12.6198091,11.4679429 C14.6650592,12.9170822 16,15.3026451 16,18 C16,18.4133186 0,18.4099638 0,18 C0,13.581722 3.581722,10 8,10" id="路径" stroke-linecap="round"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
