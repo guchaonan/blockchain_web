@@ -1,175 +1,309 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Moderna Bootstrap Template - Index</title>
-    <meta content="" name="descriptison">
-    <meta content="" name="keywords">
+  <title>Moderna Bootstrap Template - Index</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
 
-    <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon">
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-    <!-- Google Fonts -->
-    <link
-        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
-        rel="stylesheet">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap"
+    rel="stylesheet">
 
-    <!-- Vendor CSS Files -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/1.css" />
-    <link rel="stylesheet" href="./assets/css/2.css" />
-    <link rel="stylesheet" href="./assets/css/3.css" />
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/storecss.css" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/1.css" />
+  <link rel="stylesheet" href="./assets/css/2.css" />
+  <link rel="stylesheet" href="./assets/css/3.css" />
+  <!-- <link rel="stylesheet" href="./assets/css/font-awesome-4.7.0/font-awesome.min.css" /> -->
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/storecss.css" rel="stylesheet">
+
+
+
+  <link rel="stylesheet" href="./assets/css/details/datepicker.css" />
+  <link rel="stylesheet" href="./assets/css/details/simplenews.css" />
+  <link rel="stylesheet" href="./assets/css/details/sudyNav.css" />
+  <link rel="stylesheet" href="./assets/css/details/all.css" />
+  <link rel="stylesheet" href="./assets/css/details/ui-dialog.css" />
+  <link rel="stylesheet" href="./assets/css/details/video-js.css" />
+
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+
+  <style>
+    .demo {
+      width: 220px;
+      font-size: 14px;
+      height: 80px;
+      line-height: 80px;
+      position: absolute;
+      top: 57%;
+      left: 53%;
+      border: 1px solid #e7e0e0;
+      border-radius: 8px;
+      background-color: #ffffff;
+      box-shadow: 2px 4px 5px #eeeaea;
+      text-align: center;
+    }
+
+    .demo p {
+
+      padding: 3px 3px;
+    }
+
+    .demo:after {
+      content: '';
+      position: absolute;
+      border: 10px solid transparent;
+      border-top-color: #ffffff;
+      top: 100%;
+      /*left: 37px;*/
+      left: 37%;
+    }
+  </style>
+
+
 
 </head>
+<!-- <body> -->
 
-<body>
+<body class="info">
 
-    <!-- ======= Header ======= -->
-    <header id="new_header" class="fixed-top header-transparent">
-        <div class="container">
+  <!-- header -->
+  <header>
+    <header id="new_header" class="fixed-top header-transparent" style="width: 1400px;">
+      <div class="container">
 
-            <div class="logo float-left">
-                <h2 class="text-light"><a href="index.html"><span>基于区块链技术数字版权存证管理系统</span></a></h2>
-                <!-- Uncomment below if you prefer to use an image logo -->
-                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-            </div>
-
-            <nav class="nav-menu float-right d-none d-lg-block">
-                <ul>
-                    <li class="active"><a href="index_login.html">首页</a></li>
-                    <li class="drop-down"><a href="#">区块链版权存证</a>
-                      <ul>
-                        <li><a href="store_img.html">图片存证</a></li>
-                        <li><a href="store_text.html">文本存证</a></li>
-                        <li><a href="store_vidio.html">视频存证</a></li>
-                        <li><a href="store_audio.html">音频存证</a></li>
-                      </ul>
-                    </li>
-                    <li class="drop-down"><a href="#">作品浏览</a>
-                      <ul>
-                        <li><a href="#">图片作品</a></li>
-                        <li class="drop-down"><a href="#">文本作品</a>
-                          <ul>
-                            <li><a href="text_paper.html">论文</a></li>
-                            <li><a href="text_novel.html">小说</a></li>
-                            <li><a href="text_poetry.html">诗歌</a></li>
-                            <li><a href="text_prose.html">散文</a></li>
-                            <li><a href="text_drama.html">剧本</a></li>
-                            <li><a href="text_other.html">其他</a></li>
-                          </ul>
-                        </li>
-                        <li><a href="#">视频作品</a></li>
-                        <li><a href="#">音频作品</a></li>
-                      </ul>
-                    </li>
-                    <li class="drop-down"><a href="#">个人信息</a>
-                      <ul>
-                        <li><a href="personal_info.html">我的主页</a></li>
-                        <li><a href="store_record.html">存证记录</a></li>
-                        <li><a href="trade_record.html">交易记录</a></li>
-          
-                      </ul>
-                    </li>
-                    <li><a href="#">举报</a></li>
-          
-                  </ul>s
-            </nav><!-- .nav-menu -->
-
+        <div class="logo float-left">
+          <h2 class="text-light"><a href="index.html"><span
+                style="font-weight: 500;font-size:2rem;">基于区块链技术数字版权存证管理系统</span></a></h2>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
         </div>
+
+        <nav class="nav-menu float-right d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="index_login.html">首页</a></li>
+            <li class="drop-down"><a href="#">区块链版权存证</a>
+              <ul>
+                <li><a href="store_img.html">图片存证</a></li>
+                <li><a href="store_text.html">文本存证</a></li>
+                <li><a href="store_vidio.html">视频存证</a></li>
+                <li><a href="store_audio.html">音频存证</a></li>
+              </ul>
+            </li>
+            <li class="drop-down"><a href="#">作品浏览</a>
+              <ul>
+                <li><a href="#">图片作品</a></li>
+                <li class="drop-down"><a href="#">文本作品</a>
+                  <ul>
+                    <li><a href="text_paper.html">论文</a></li>
+                    <li><a href="text_novel.html">小说</a></li>
+                    <li><a href="text_poetry.html">诗歌</a></li>
+                    <li><a href="text_prose.html">散文</a></li>
+                    <li><a href="text_drama.html">剧本</a></li>
+                    <li><a href="text_other.html">其他</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">视频作品</a></li>
+                <li><a href="#">音频作品</a></li>
+              </ul>
+            </li>
+            <li class="drop-down"><a href="#">个人信息</a>
+              <ul>
+                <li><a href="personal_info.html">我的主页</a></li>
+                <li><a href="store_record.html">存证记录</a></li>
+                <li><a href="trade_record.html">交易记录</a></li>
+
+              </ul>
+            </li>
+            <li><a href="#">举报</a></li>
+
+          </ul>
+        </nav><!-- .nav-menu -->
+
+      </div>
     </header><!-- End Header -->
+  </header>
 
 
-    <div id="app">
-        <div>
-            <div data-v-6d4c44c7="" class="category-wrapper">
-                <div class="details_contentpart">
-                    <!-- 主图 -->
-                    <div class="detalis_audio_audio">
-                        <br/>
-                        <br/>
-                        <br/>
-                        <br/>
-                        
-                       
-                        <!-- <audio src="/assets/audios/卡农(音乐盒版) - Various Artists.mp3" controls></audio> -->
-                        <!-- <a href="details_img.html"><img src="assets/img/features-2.svg" class="brose_img"></a> -->
-                    </div>
-                    <!-- 文字部分 -->
+  <section class="m-wrap inner-wrap">
+    <section class="wp clearfix">
+      <div class="col-883 fl">
+        <section class="ar-detail">
+          <div class="hd clearfix">
+            <div frag="窗口31">
 
-                    <div class="details_img_content">
-                        <div class="details_title">
-                            <span id="zuopin_name">《作品名》</span>：&nbsp;&nbsp;&nbsp;<span id="user_name">作者XXX</span>
-                            <br />
-                            
-                            <br />
-                        </div>
-
-                        <div class="details_tags">  
-                            <span>剧本</span>                          
-                            <span>情感</span>                          
-                            <span>小说</span>                          
-                        
-                        </div>
-                        <br />
-
-                        <div class="details_detail">
-                            <span
-                                id="zuopin_detail">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述作品描述描述作品描述</span>
-                            <br />
-
-                        </div>
-                        <br />
-                        <div class="details_detail">
-                            <span
-                                id="zuopin_detail">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这里是正文。。。</span>
-                            <br />
-
-                        </div>
-                        <div class="details_contact">
-                            <span>觉得此作品不错且有购买意向，请<a class="contact_me" href="#">与我联系</a></span>
-                        </div>
-
-                    </div>
-                </div>
-
+              <h3>文本</h3>
 
             </div>
+            <nav class="crumbs">
+              <div frag="窗口33">
+                <a href="index_login.html" target="_self">首页</a><span class='possplit'>&nbsp;&nbsp;</span><a href="#"
+                  target="_self">作品浏览</a><span class='possplit'>&nbsp;&nbsp;</span><a href="#" target="_self">文本作品</a>
+              </div>
+            </nav>
+          </div>
+          <div class="bd" frag="窗口32">
+            <iframe></iframe>
+            <article class="con-area">
+              <div class='wp_articlecontent'></div>
+            </article>
+            <!-- <article class="con-area"><div class='wp_articlecontent'>  <img src="assets/img/a_school.jpg" alt="" class="img-fluid"></div></article> -->
+
+          </div>
+
+        </section>
+        <script type="text/javascript">
+          $('video').each(function () {
+            videojs(
+              $(this).get(0),
+              { controls: false, autoplay: false, preload: 'auto' }
+            );
+          });
+        </script>
+      </div>
+      <div class="col-305 fr">
+        <!-- tag -->
+        <div class="tag-box">
+          <div class="mod-hd">热门标签</div>
+          <figure class="r-tag r-bg">
+            <div frag="窗口42">
+              <iframe allowtransparency='ture' frameborder='0' width='305' height='500' scrolling='no'
+                src='/_web/_keyword/tagCloud/cloud.jsp?_p=YXM9NSZ0PTg2JmQ9Mjk2JnA9MyZmPTcmYT0wJm09U04mfGJubkNvbHVtblZpcnR1YWxOYW1lPTcm&w=305&h=500&maxCount=30&index=false&publishNum=0&nameLen=30'></iframe>
+            </div>
+          </figure>
         </div>
+        <!-- rank -->
+        <div class="new-tttp-mod mt0">
+          <h3 class="mod-hd">
+            作品描述
+          </h3>
+          <div frag="窗口41">
+            <figure class="rank-top">
+              <ul class="last-updata-timeline txt-list">
+
+
+                <li class="last-updata-timeline-li">
+                  中国传媒大学（Communication University of
+                  China）简称“中传”，位于首都北京，是中华人民共和国教育部直属的信息传播领域行业特色大学，国家“世界一流学科建设高校””，国家“211工程”重点建设高校，国家“985工程优势学科创新平台”建设高校，国家“111计划”、”国家建设高水平大学公派研究生项目“、”国家级大学生创新创业训练计划“入选高校，传媒高等教育国际联盟发起单位，联合国教科文组织“媒介与女性”教席单位
+                </li>
+
+              </ul>
+
+            </figure>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer-index">
+    <div frag="面板6">
+      <article class="wp wp-index tc clearfix">
+        <div frag="窗口61">
+          <div id="wp_nav_w61">
+
+
+            <ul class="wp_nav"
+              data-nav-config="{drop_v: 'down', drop_w: 'right', dir: 'y', opacity_main: '-1', opacity_sub: '-1', dWidth: '0'}">
+
+              <li class="nav-item i1 ">
+                <a href="/1388/list.htm" title="关于我们" target="_self"><span class="item-name">关于我们</span></a><i
+                  class="mark"></i>
+
+              </li>
+
+              <li class="nav-item i2 ">
+                <a href="/1389/list.htm" title="友情链接" target="_self"><span class="item-name">友情链接</span></a><i
+                  class="mark"></i>
+
+              </li>
+
+            </ul>
+
+
+          </div>
+        </div>
+        <div frag="窗口62">
+
+          版权所有 <em>©</em> <a href="http://www.cuc.edu.cn/main.htm" target="_blank">中国传媒大学</a> / <span class="bq"><a
+              href="http://www.beian.miit.gov.cn" target="_blank">京 ICP 备 10039564 号</a> 京公网安备 110402430031
+            号</span><br />
+          地址：北京市朝阳区定福庄东街一号 / 邮政编码：100024 / 技术支持：中国传媒大学信息化处 苏迪科技
+
+        </div>
+
+      </article>
     </div>
+  </footer>
 
-    <!-- ======= Footer ======= -->
 
+  <script type="text/javascript" src="/_upload/tpl/00/56/86/template86/htmlRes/super_slide.js"></script>
+  <script type="text/javascript" src="/_upload/tpl/00/56/86/template86/htmlRes/dialog-min.js"></script>
 
-    <!-- <i href="#" class="back-to-top"><i class="icofont-simple-up"></i></a> -->
+  <div style="display:none;">
+    <script type="text/javascript">
+      var cnzz_s_tag = document.createElement("script");
+      cnzz_s_tag.type = "text/javascript";
+      cnzz_s_tag.async = true;
+      cnzz_s_tag.charset = "utf-8";
+      cnzz_s_tag.src = "http://w.cnzz.com/c.php?id=1253347479&async=1";
+      var root_s = document.getElementsByTagName("script")[0];
+      root_s.parentNode.insertBefore(cnzz_s_tag, root_s);
+    </script>
+    <script type="text/javascript">
+      var cnzz_s_tag = document.createElement("script");
+      cnzz_s_tag.type = "text/javascript";
+      cnzz_s_tag.async = true;
+      cnzz_s_tag.charset = "utf-8";
+      cnzz_s_tag.src = "http://w.cnzz.com/c.php?id=1912558&async=1";
+      var root_s = document.getElementsByTagName("script")[0];
+      root_s.parentNode.insertBefore(cnzz_s_tag, root_s);
+    </script>
+    <script>
+      $(function () {
+        $(".tk").hover(
+          function () {
+            $(".demo").show();
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/venobox/venobox.min.js"></script>
-    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-    <script src="assets/vendor/counterup/counterup.min.js"></script>
-    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
-
+          });
+        $(".tk").mouseout(
+          function () {
+            $(".demo").hide(); //$(this).hide();      
+          });
+      });
+    </script>
+  </div>
 </body>
 
 </html>
+<!--<script type="text/javascript" src="http://www.cuc.edu.cn/api.php?m=hits&module=news&id=11625&catid=286"></script>-->
+<div id="visitCountUrl" style="display:none" width="0" height="0">/_visitcount?siteId=5&type=3&articleId=153351</div>
